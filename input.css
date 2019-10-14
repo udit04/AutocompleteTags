@@ -1,0 +1,35 @@
+.body {
+    background-color: ghostwhite;
+}
+
+.middle {
+    margin: 20px;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+  }
+  
+  .col {
+    flex: 1; /* additionally, equal width */
+    padding: 1em;
+    border: ridge;
+    width: 50%;
+  }
+
+  .inputContainer { position:relative; }
+.myInput { padding-left:25px; /* This will move the text from under the image */ } 
+.inputImg { left:5px; position:absolute; top:5px; z-index:5; }
+
+.autosuggestion {
+  border-bottom: inset;
+  border-left: inset;
+  border-right: inset;
+  width: 100%;
+  background-color: #f7f5f9;
+  height: auto;
+}
+
+.autosuggestion p {
+  padding: 4px
+}
